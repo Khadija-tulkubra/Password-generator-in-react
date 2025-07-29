@@ -1,12 +1,54 @@
-# React + Vite
+# 🔐 React Password Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and customizable password generator built using **React Hooks** like `useState`, `useCallback`, `useEffect`, and `useRef`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Generate secure random passwords
+- 🔢 Option to include numbers
+- 🔣 Option to include special characters (like `!@#$%`)
+- 🔢 User-defined password length
+- 📋 One-click "Copy to Clipboard" functionality
+- ⚛️ Built with React functional components and hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 React Hooks Used
+
+| Hook        | Purpose                                                                 |
+|-------------|-------------------------------------------------------------------------|
+| `useState`  | Store password value, options like length, numbers, symbols, etc.       |
+| `useEffect` | Automatically generate password when options change                     |
+| `useCallback` | Optimize password generation function to avoid unnecessary re-renders |
+| `useRef`    | Select the password field content to copy it to clipboard               |
+
+---
+
+## 🛠️ How to Use
+
+1. Enter the desired **password length**
+2. Check the boxes to include:
+   - Numbers
+   - Symbols
+3. Click the `Generate` button (or auto-generate happens on change)
+4. Click `Copy` to copy the password to your clipboard
+
+---
+
+## 📦 Technologies Used
+
+- React
+- JavaScript (ES6+)
+- Tailwind CSS (for basic styling)
+
+---
+Screenshot 
+<img width="1329" height="612" alt="image" src="https://github.com/user-attachments/assets/fdabcdc5-f389-410b-9c00-90008fbd0b9d" />
+
+
+## 🙌 Author
+
+**Khadija tul Kubra**  
+React Developer | Frontend Learner | Problem Solver
