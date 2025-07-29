@@ -32,8 +32,7 @@ A simple and customizable password generator built using **React Hooks** like `u
 2. Check the boxes to include:
    - Numbers
    - Symbols
-3. Click the `Generate` button (or auto-generate happens on change)
-4. Click `Copy` to copy the password to your clipboard
+3. Click `Copy` to copy the password to your clipboard
 
 ---
 
